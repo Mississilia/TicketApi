@@ -1,13 +1,13 @@
 'use strict'
 class Client {
-    id;
+    idClient;
     prenom;
     nom;
     email;
     motDePasse;
     role;
-    constructor(id, prenom, nom, email,motDePasse, role){
-        this.id = id;
+    constructor(idClient, prenom, nom, email,motDePasse, role){
+        this.idClient = idClient;
         this.prenom = prenom;
         this.nom = nom;
         this.email = email;

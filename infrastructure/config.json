@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "ticket",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "",
+    "port": 3306,
+    "operatorsAliases": 0,
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  }
+}
