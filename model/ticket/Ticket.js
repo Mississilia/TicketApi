@@ -1,10 +1,11 @@
+'use strict'
 class Ticket {
-    Id;
-    Price;
-    CustomerId;
-    constructor(Id, Price, CustomerId) {
-        this.Id = Id;
-        this.Price = Price;
-        this.CustomerId = CustomerId;
+    id;
+    prix;
+    idClient;
+    constructor(id,prix, idClient){
+        this.id = id;
+        this.prix = prix;
+        this.idClient = idClient;
     }
 }
